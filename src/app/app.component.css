@@ -42,6 +42,10 @@ li {
   width: 80%;
 }
 
+#links {
+  margin-bottom: 100px;
+}
+
 .nav-li {
   margin-right: 14.74px;
 }
