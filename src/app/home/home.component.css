@@ -1,66 +1,53 @@
-h1,
-p {
-  font-family: "IBM Plex Sans", sans-serif;
-}
-h1 {
-  font-size: 3.5vw;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  color: #000000;
-}
-
-p {
-  font-size: 1.6vw;
-  font-weight: 100;
-  line-height: 1.9em;
-  color: #666666;
-}
-
-#main {
-  text-align: center;
-  display: inline-block;
-  width: 50%;
-}
-
-#wrapper {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.big-divider {
+  border-image-width: 1;
+  width: 60%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-color: #a3a3a3;
 }
 
 .small-divider {
   border-image-width: 1;
-  border-color: #000000;
-  width: 15%;
+  border-color: rgb(0, 0, 0);
+  width: 6%;
   margin-top: 3vh;
-  margin-bottom: 2vh;
-}
-
-ul {
-  padding: 0;
-}
-
-li {
-  vertical-align: middle;
-  list-style: none;
-  display: inline-block;
-  margin-top: 3vh;
-  margin-left: 1.5vw;
-  list-style-position: outside;
-}
-
-.icon-a {
-  color: #666666;
-  border: solid 1px #cccccc;
-  align-items: center;
-  border-radius: 100%;
-  padding: 12px;
-  vertical-align: baseline;
-  transition: color 0.5s ease, border-color 0.5s ease;
+  margin-bottom: 3vh;
 }
 
 .icon-a:hover {
   border-color: rgb(21, 141, 206);
   color: rgb(21, 141, 206);
+}
+
+.icon-a {
+  border: solid 1px #cccccc;
+  align-items: center;
+  border-radius: 100%;
+  padding: 15px;
+  vertical-align: baseline;
+  transition: color 0.5s ease, border-color 0.5s ease;
+  color: #666666;
+}
+
+#home {
+  margin-top: 100px;
+}
+
+.bio-p {
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 1.9em;
+  color: #666666;
+  text-align: center;
+}
+
+.links-li {
+  display: inline-block;
+  margin-top: 3vh;
+  margin-right: 2vw;
+  list-style-position: outside;
+}
+
+ul {
+  padding: 0;
 }
