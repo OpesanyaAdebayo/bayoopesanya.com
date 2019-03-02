@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   font-weight: 100;
   line-height: 1.9em;
   color: #666666;
@@ -36,12 +36,6 @@ p {
   margin-top: 3vh;
   margin-bottom: 2vh;
 }
-
-/* .icon {
-  display: inline-block;
-  border: 1px solid #000000;
-  border-radius: 40%;
-} */
 
 ul {
   padding: 0;
