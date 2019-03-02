@@ -1,0 +1,16 @@
+#about {
+  margin-top: 100px;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.9em;
+}
+
+a {
+  color: rgb(21, 158, 231);
+}
