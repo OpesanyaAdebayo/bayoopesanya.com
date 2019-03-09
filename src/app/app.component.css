@@ -33,18 +33,14 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
 }
 
 #main {
   text-align: center;
   display: inline-block;
-  width: 80%;
+  width: 100%;
 }
 
-#links {
-  margin-bottom: 100px;
-}
 
 .nav-li {
   margin-right: 14.74px;
@@ -71,4 +67,8 @@ li {
   border-color: rgb(21, 141, 206);
   background-color: rgb(21, 141, 206);
   color: rgb(255, 255, 206);
+}
+
+#links {
+  margin-top: 2vh;
 }

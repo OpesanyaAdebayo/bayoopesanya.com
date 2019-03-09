@@ -47,3 +47,47 @@
 ul {
   padding: 0;
 }
+
+#home {
+  /* border: 2px solid seagreen; */
+  position: absolute;
+  top: 25%;
+  width: 90%;
+}
+
+/* Large desktop */
+@media (min-width: 1025px) {
+  #home {
+    left: 5.5%;
+  }
+}
+@media (min-width: 980px) and (max-width: 1024px) {
+  #home {
+    left: 7.5%;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #home {
+    left: 2%;
+  }
+}
+@media (min-width: 551px) and (max-width: 767px) {
+  #home {
+    left: 3%;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 415px) and (max-width: 550px) {
+  #home {
+    left: 14%;
+  }
+}
+
+@media (max-width: 414px) {
+  #home {
+    left: 1%;
+  }
+}
