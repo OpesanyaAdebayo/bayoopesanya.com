@@ -7,7 +7,7 @@ import { Component, OnInit, Input, ViewChild, ElementRef, AfterViewInit, ViewEnc
 })
 export class GistComponent implements AfterViewInit {
 
-  @ViewChild('iframe') iframe: ElementRef;
+  @ViewChild('iframe', { static: true }) iframe: ElementRef;
   @Input() gistId;
   @Input() file: string;
 
